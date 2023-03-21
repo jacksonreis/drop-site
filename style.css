@@ -49,6 +49,11 @@ header h1 {
     text-align: center;
 }
 
+#h1-underline {
+    width: 90px;
+    margin: -11px 0px -11px -93px;;
+}
+
 header strong {
     font-weight: 800;
     color: #F3F800;
