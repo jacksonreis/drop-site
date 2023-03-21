@@ -42,7 +42,7 @@ header #logo-drop {
 }
 
 header h1 {
-    font-size: min(32px, 7.8vw);
+    font-size: min(35px, 8vw);
     font-weight: 300;
     text-align: center;
 }
