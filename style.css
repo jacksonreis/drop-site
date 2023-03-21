@@ -48,6 +48,7 @@ header h1 {
 }
 
 header strong {
+    font-weight: 800;
     color: #FF0078;
 }
 
@@ -65,11 +66,10 @@ section {
     margin: auto;
 }
 
-
 #section1 p {
-    font-size: max(14.5px, 3vw);
+    font-size: max(14.5px, 1.07vw);
     
-    font-weight: 300;
+    font-weight: 400;
     max-width: 600px;
     margin: auto;
 }
