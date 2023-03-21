@@ -99,5 +99,8 @@ h2 {
 #links img {
     display: block;
     max-width: 350px;
+    min-width: 200px;
     margin: auto;
+
+    border-radius: 10px;
 }
