@@ -84,3 +84,20 @@ section {
 #section1 strong {
     color: var(--cor-orange);
 }
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#links {
+    max-width: 463px;
+    margin: auto;
+}
+
+#links img {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
