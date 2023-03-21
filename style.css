@@ -22,6 +22,8 @@
 }
 
 body {
+    height: 100vh;
+    height: 100vw;
     font-family: var(--font-padrao);
     color: var(--cor-white);
 
