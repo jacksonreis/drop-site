@@ -27,8 +27,8 @@ body {
     font-family: var(--font-padrao);
     color: var(--cor-white);
 
-    background: pink url(midia/header-mobile.jpg) center center no-repeat fixed;
-    background-size: 100% 100%;
+    background: pink url(midia/wallpaper.png) center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
@@ -44,13 +44,13 @@ header #logo-drop {
 }
 
 header h1 {
-    font-size: min(35px, 8vw);
+    font-size: min(45px, 8vw);
     font-weight: 300;
     text-align: center;
 }
 
 #h1-underline {
-    width: 90px;
+    width: 105px;
     margin: -11px 0px -11px -93px;;
 }
 
@@ -73,12 +73,15 @@ section {
     margin: auto;
 }
 
+
 #section1 p {
-    font-size: max(14.5px, 2vw);
+    font-size: max(18px, 1.2vw);
     
     font-weight: 400;
-    max-width: 600px;
+    max-width: 1707px;
     margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #section1 strong {
