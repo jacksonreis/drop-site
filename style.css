@@ -43,19 +43,21 @@ header #logo-drop {
     margin-bottom: 45px;
 }
 
-header h1 {
+#section1 h1 {
+    font-family: var(--font-drop);
     font-size: min(45px, 8vw);
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
+    margin-bottom: 28px;
 }
 
 #h1-underline {
     width: 105px;
-    margin: -11px 0px -11px -93px;;
+    margin: 0px 0px -7px -116px;
 }
 
-header strong {
-    font-weight: 800;
+#section1 h1 > strong {
+    font-weight: 600;
     color: #F3F800;
 }
 
@@ -72,7 +74,6 @@ section {
     max-width: 700px;
     margin: auto;
 }
-
 
 #section1 p {
     font-size: max(18px, 1.2vw);
@@ -96,10 +97,18 @@ h2 {
 
 #link-1 {
     margin-top: 50px;
+    max-width: 1707px;
+}
+
+.container-link {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
 }
 
 #link-1 img {
     display: block;
-    max-width: 500px;
-    margin: auto;
+    width: 100%;
+    position: absolute;
 }
+
