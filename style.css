@@ -27,7 +27,7 @@ body {
     font-family: var(--font-padrao);
     color: var(--cor-white);
 
-    background: pink url(midia/background-ultimo.png) center center no-repeat scroll;
+    background: pink url(midia/background-ultimo.png) left top no-repeat scroll;
     background-size: 100% 100%;
 }
 
