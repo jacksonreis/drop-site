@@ -76,7 +76,7 @@ section {
 }
 
 #section1 p {
-    font-size: max(18px, 1.2vw);
+    font-size: min(22px, 4.5vw);
     
     font-weight: 400;
     max-width: 1707px;
