@@ -27,8 +27,8 @@ body {
     font-family: var(--font-padrao);
     color: var(--cor-white);
 
-    background: pink url(midia/wallpaper.png) center center no-repeat scroll;
-    background-size: cover;
+    background: pink url(midia/background-ultimo.png) center center no-repeat scroll;
+    background-size: 100% 100%;
 }
 
 header {
@@ -101,9 +101,6 @@ h2 {
 
 #links img {
     display: block;
-    max-width: 400px;
-    min-width: 200px;
     margin: auto;
-
-    border-radius: 10px;
+    width: 500px;
 }
