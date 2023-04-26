@@ -103,12 +103,19 @@ h2 {
 .container-link {
     max-width: 500px;
     position: relative;
+    height: 105px;
     margin: auto;
 }
 
 #link-1 img {
     display: block;
     width: 100%;
+    height: 100%;
     position: absolute;
+}
+
+#link-1 img:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
 }
 
