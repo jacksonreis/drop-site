@@ -96,7 +96,7 @@ h2 {
 }
 
 #link-1 {
-    margin-top: 50px;
+    margin-top: max(50px, 5vw);
     max-width: 1707px;
 }
 
